@@ -15,6 +15,10 @@ app.listen(port, () => {
 });
 
 //test
+app.get("/hello5", (_req, res) => {
+  res.send("hello5");
+})
+
 app.get("/hello", (_req, res) => {
   res.send("hello");
 })
