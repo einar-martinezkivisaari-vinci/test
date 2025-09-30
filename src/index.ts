@@ -14,4 +14,9 @@ app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
 
+//test
+app.get("/hello", (_req, res) => {
+  res.send("hello");
+})
+
 export default app;
