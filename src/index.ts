@@ -19,4 +19,8 @@ app.get("/hello", (_req, res) => {
   res.send("hello");
 })
 
+app.get("/hello4", (_req, res) => {
+  res.send("hello4");
+})
+
 export default app;
