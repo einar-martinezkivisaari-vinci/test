@@ -1,0 +1,1 @@
+export const divideAndConquer = (a:number, b:number) => a / (b * (a + b));
